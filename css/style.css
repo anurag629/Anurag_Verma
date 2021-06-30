@@ -1,4 +1,16 @@
+h1{
+    color: rgb(255, 255, 255);
+}
 body {
-    background-color: rgb(21, 167, 167);
+    background-color: rgb(32, 30, 29);
     
+}
+a{
+    color: rgb(241, 227, 224);
+}
+li{
+    color: rgb(255, 255, 255);
+}
+hr{
+    width: 50%;
 }
