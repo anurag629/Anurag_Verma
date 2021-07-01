@@ -1,20 +1,36 @@
-h1{
+h1 {
     color: rgb(255, 255, 255);
 }
 body {
     background-color: rgb(32, 30, 29);
+    text-align: center;
+    align-self: start;
+    align-content: center;
     
 }
-a{
+a {
     color: rgb(241, 227, 224);
 }
-li{
+li {
     color: rgb(255, 255, 255);
 }
-hr{
+hr {
     width: 30%;
     height: 3px;
     background-color: rgb(255, 255, 255);
     border-style: dashed;
     border-spacing: 20%;
+}
+h2 {
+    color: blue;
+    font-style: italic;
+}
+a:link, a:visited {
+    text-decoration: none;
+    font-style: italic;
+    font-size: larger;
+}
+
+a:hover, a:active {
+    background-color: rgb(102, 102, 109);
 }
