@@ -12,5 +12,9 @@ li{
     color: rgb(255, 255, 255);
 }
 hr{
-    width: 50%;
+    width: 30%;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    border-style: dashed;
+    border-spacing: 20%;
 }
