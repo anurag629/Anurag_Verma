@@ -106,6 +106,12 @@ html {
     letter-spacing: 00.3rem;
 }
 
+
+.section-1-btn:hover {
+    color: rgb(248, 7, 7);
+}
+
+
 /* End of section-1 */
 
 
