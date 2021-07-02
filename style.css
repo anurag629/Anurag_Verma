@@ -2,10 +2,13 @@ h1 {
     color: rgb(255, 255, 255);
 }
 body {
-    background-color: rgb(32, 30, 29);
+    
     text-align: center;
     align-self: start;
     align-content: center;
+    background-image: url(background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     
 }
 a {
