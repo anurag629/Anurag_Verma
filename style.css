@@ -14,6 +14,12 @@ html {
     scroll-behavior: smooth;
 }
 
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* End of reset and comman styles */
 
 /* Section 1 */
@@ -26,10 +32,8 @@ html {
         ),
         url(background1.jpg) center no-repeat;
         background-size: cover;
-        display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        
 }
 
 .section-1-heading-1 {
@@ -82,11 +86,11 @@ html {
     background-color: #ca6d21;
     margin: 5rem 0;
     padding: 0.5rem 3rem;
-    letter-spacing: 1rem;
+    letter-spacing: 0.5rem;
     text-shadow: 00.2rem 0.2rem 1rem;
     border-bottom: 00.3rem solid #fff;
     transform: skew(-10deg);
-    border-radius: 15%;
+    border-radius: 10%;
 
 }
 
@@ -102,5 +106,46 @@ html {
     letter-spacing: 00.3rem;
 }
 
+/* End of section-1 */
 
+
+/* Navbar */
+.navbar {
+    width: 100%;
+    height: 4rem;
+    background-color: #d84b4b;
+    box-shadow: 00.2rem 0.2rem 0.5rem #555;
+}
+
+.navbar-link {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #333;
+    margin: 0 3rem;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    position: relative;
+    transition: color 0.2s;
+}
+
+.navbar-link:hover {
+    color: #fff;
+}
+
+.navbar-link::before {
+    content: "";
+    width: 0;
+    height: 0.2rem;
+    background-color: #fff;
+    position: absolute;
+    right: -15%;
+    bottom: -0.3rem;
+    transition: width 0.3s;
+}
+
+.navbar-link:hover::before {
+    width: 133%;
+}
+
+/* End of Navbar */
 
