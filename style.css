@@ -35,7 +35,7 @@ html {
 /* Section 1 */
 .section-1 {
     width: 100%;
-    height: 110vh;
+    height: 100vh;
     background: linear-gradient(
         rgba(255,255,255,0.2),
         rgba(255,255,255,0.3)
@@ -168,7 +168,7 @@ html {
 /* Section-2 */
 .section-2 {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     padding: 20rem 30rem;
     padding-top: 10rem;
     background-color: rgb(159, 180, 197);
@@ -195,7 +195,7 @@ html {
 /* Section-3 */
 .section-3 {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     padding: 7.8rem 0;
     background-color: #fff;
     display: flex;
@@ -245,7 +245,7 @@ html {
 /* Section-4 */
 .section-4 {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     padding: 11.3rem 0;
     background-color: #eef;
     display: flex;
@@ -333,7 +333,7 @@ html {
 /* Section-5 */
 .section-5 {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     padding: 8rem 0;
     background-color: rgb(165, 165, 177);
     display: flex;
