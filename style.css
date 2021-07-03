@@ -399,3 +399,39 @@ html {
 
 
 /* End of section-6 */
+
+
+/* Section 7 */
+.section-7 {
+    width: 100%;
+    height: 30vh;
+    background-color: #222;
+    flex-direction: column;
+  }
+  
+  .social-media {
+    margin-bottom: 5rem;
+  }
+  
+  .social-media-link {
+    margin: 0 2rem;
+    padding: 0.7rem;
+    background-color: #72706e;
+    border-radius: 0.5rem;
+    display: inline-block;
+    box-shadow: .3rem .3rem .3rem #777;
+  }
+  
+  .social-media-link i {
+    font-size: 3rem;
+    color: #fff;
+  }
+  
+  .Designed {
+    color: #aaa;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    font-weight: 300;
+    text-align: center;
+  }
+  /* End of Section 7 */
