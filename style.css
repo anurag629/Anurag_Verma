@@ -127,7 +127,7 @@ html {
 
 /* Navbar */
 .navbar {
-    width: 100%;
+    width: auto;
     height: 4rem;
     background-color: #d84b4b;
     box-shadow: 00.2rem 0.2rem 0.5rem #555;
