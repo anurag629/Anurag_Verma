@@ -20,6 +20,16 @@ html {
     align-items: center;
 }
 
+.section-heading {
+    font-size: 5rem;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    margin-bottom: 4rem; 
+    border-bottom: 0.3rem solid #333;
+    text-shadow: 0.2rem 0.2rem 0.5rem #555 ;   
+}
+
 /* End of reset and comman styles */
 
 /* Section 1 */
@@ -166,15 +176,7 @@ html {
     align-items: center;
 }
 
-.section-3-heading {
-    font-size: 5rem;
-    color: #333;
-    text-transform: uppercase;
-    letter-spacing: 0.5rem;
-    margin-bottom: 4rem; 
-    border-bottom: 0.3rem solid #333;
-    text-shadow: 0.2rem 0.2rem 0.5rem #555 ;   
-}
+
 
 .progress-bars-wrapper  {
     margin-bottom: 4rem;
@@ -193,6 +195,8 @@ html {
     position: absolute;
     font-size: 1.5rem;
     color: #fff;
+    padding-left: 1rem;
+    padding-top: .5rem;
 }
 .progress-text span {
     margin: 0 .5rem;
@@ -209,3 +213,91 @@ html {
 
 
 /* End of Section-3 */
+
+
+/* Section-4 */
+.section-4 {
+    width: 100%;
+    height: 100%;
+    padding: 10rem 0;
+    background-color: #eef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.certificate-wrapper {
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+.certificate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    background-color: #fff;
+    box-shadow: 0.3rem 0.3rem 0.5rem #777;
+    border-radius: 1rem;
+    position: relative;
+    overflow: hidden;   
+    transition: box-shadow .3s;
+}
+
+.certificate:hover {
+    box-shadow: 1rem 1rem 1rem #777;
+}
+
+.certificate-text {
+    text-align: center;
+    letter-spacing: .1rem;
+    position: absolute;
+    top: -4rem;
+    transition: top 0.3s;
+    z-index: 10;
+
+}
+
+.certificate:hover .certificate-text {
+    top: 8rem;
+    transition: top .3s .3s;
+}
+
+
+.certificate-name {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #333;
+    text-transform: capitalize;
+}
+
+.certificate-img {
+    width: 35rem;
+    transition: opacity .3s;
+}
+
+.certificate:hover .certificate-img {
+    opacity: 0.2;
+}
+
+.certificate-link {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #333;
+    letter-spacing: .1rem;
+    border: .3rem solid #d84b4b;
+    padding: 0 1rem;
+    background-color: #fff;
+    position: absolute;
+    bottom: -5rem;
+    transition: .3s;
+}
+
+.certificate:hover .certificate-link {
+    bottom: 9rem;
+    transition: bottom .3s .3s;
+}
+
+ 
+/* End of section-4*/
