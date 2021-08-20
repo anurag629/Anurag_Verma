@@ -32,7 +32,7 @@ html {
 
 /* End of reset and comman styles */
 
-/* Section 1 */
+/* Section 1 Home Page*/
 .section-1 {
     width: 100%;
     height: 100vh;
@@ -145,8 +145,15 @@ html {
     height: 4rem;
     background-color: #d84b4b;
     box-shadow: 0.2rem 0.2rem 0.5rem #555;
+    position: absolute;
+    z-index: 400;
     
 
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
 }
 
 .navbar-link {
@@ -158,6 +165,10 @@ html {
     text-transform: uppercase;
     position: relative;
     transition: color 0.2s;
+}
+
+.change.navbar-link {
+    color: #fff;
 }
 
 .navbar-link:hover {
@@ -173,6 +184,10 @@ html {
     right: -15%;
     bottom: -0.3rem;
     transition: width 0.3s;
+}
+
+.change.navbar-link::before {
+    width: 133%;
 }
 
 .navbar-link:hover::before {
@@ -208,7 +223,7 @@ html {
 }
 /* End of Section-2 */
 
-/* Section-3 */
+/* Section-3 Skills*/
 .section-3 {
     width: 100%;
     height: 100vh;
@@ -222,10 +237,11 @@ html {
 
 
 .progress-bars-wrapper  {
+    
     margin-bottom: 4rem;
 }
 .progress-bar {
-    width: 60rem;
+    width: 40rem;
     height: 3rem;
     background-color: #ccc;
     margin: 1.5rem 0;
@@ -248,10 +264,11 @@ html {
 }
 
 .progress-percent {
-    width: 90%;
+    width: 0;
     height: 100%;
     background-color: #77c017;
     border-radius: 0.3rem;
+    transition: width .5s .5s ease-in-out;
 }
 
 
