@@ -747,6 +747,73 @@ html {
 
 
 
+@media (max-width: 350px) {
+    html {
+        font-size: 40%;
+    }
+
+    .section-heading {
+        font-size: 3.8rem;
+    }
+    .section-1-heading-1 {
+        font-size: 2.3rem;
+    }
+    .section-1-heading-2 {
+        font-size: 2.3rem;
+    }
+    .navbar-link {
+        margin: 0 .6rem;
+        font-size: 9px;
+    }
+    .section-2 {
+        padding: 0 9rem;
+        padding-top: 9rem;
+       
+    }
+    
+    .about-me-exp {
+        margin: 4rem 0;
+        
+    }
+
+
+
+    
+
+    .progress-bars-wrapper {
+        margin: 4rem 0;
+    }
+
+    
+
+    .section-4 {
+        padding: 6.8rem 0;
+      
+    }
+    .certificate-wrapper {
+        text-align: center;
+    } 
+
+
+    .section-5 {
+        padding: 6rem 0;
+      
+    }
+    
+    .section-8 {
+        padding: 6rem 0;
+      
+    }
+    
+    
+}
+
+
+
+
+
+
+
 
 
 
