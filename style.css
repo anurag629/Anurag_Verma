@@ -486,23 +486,21 @@ html {
 
 
   /* Responsive design */
-  @media (max-width: 1000px) {
-    html {
-        font-size: 50%;
-    }
+  @media (max-width: 1200px) {
+    
 
     .section-heading {
-        font-size: 4rem;
+        font-size: 5rem;
     }
     .section-1-heading-1 {
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
     .section-1-heading-2 {
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
     .navbar-link {
-        margin: 0 .9rem;
-        font-size: 15px;
+        margin: 1rem;
+        font-size: 18px;
     }
     .section-2 {
         padding: 0 10rem;
@@ -511,7 +509,7 @@ html {
     }
     
     .about-me-exp {
-        margin: 5rem 0;
+        margin: auto 12rem;
         
     }
 
@@ -520,7 +518,7 @@ html {
     
 
     .progress-bars-wrapper {
-        margin: 5rem 0;
+        margin: auto;
     }
 
     
@@ -530,6 +528,7 @@ html {
       
     }
     .certificate-wrapper {
+        margin: auto;
         text-align: center;
     } 
 
@@ -548,6 +547,68 @@ html {
 }
 
 
+  
+  @media (max-width: 1000px) {
+    html {
+        font-size: 60%;
+    }
+
+    .section-heading {
+        font-size: 5rem;
+    }
+    .section-1-heading-1 {
+        font-size: 3rem;
+    }
+    .section-1-heading-2 {
+        font-size: 3rem;
+    }
+    .navbar-link {
+        margin: 1rem;
+        font-size: 18px;
+    }
+    .section-2 {
+        padding: 0 10rem;
+        padding-top: 10rem;
+       
+    }
+    
+    .about-me-exp {
+        margin: auto 12rem;
+        
+    }
+
+
+
+    
+
+    .progress-bars-wrapper {
+        margin: auto;
+    }
+
+    
+
+    .section-4 {
+        padding: 7.3rem 0;
+      
+    }
+    .certificate-wrapper {
+        margin: auto;
+        text-align: center;
+    } 
+
+
+    .section-5 {
+        padding: 6.3rem 0;
+      
+    }
+    
+    .section-8 {
+        padding: 6.3rem 0;
+      
+    }
+    
+    
+}
 
 
 
@@ -708,7 +769,7 @@ html {
     }
     
     .about-me-exp {
-        margin: 5rem 0;
+        margin: auto;
         
     }
 
@@ -717,7 +778,7 @@ html {
     
 
     .progress-bars-wrapper {
-        margin: 5rem 0;
+        margin: auto;
     }
 
     
@@ -727,6 +788,7 @@ html {
       
     }
     .certificate-wrapper {
+        margin: auto;
         text-align: center;
     } 
 
@@ -740,6 +802,10 @@ html {
         padding: 6.3rem 0;
       
     }
+
+    .contact-form {
+        width: 94%;
+    }
     
     
 }
@@ -747,9 +813,12 @@ html {
 
 
 
+
+
+
 @media (max-width: 350px) {
     html {
-        font-size: 40%;
+        font-size: 36%;
     }
 
     .section-heading {
@@ -803,6 +872,10 @@ html {
     .section-8 {
         padding: 6rem 0;
       
+    }
+
+    .contact-form {
+        width: 94%;
     }
     
     
